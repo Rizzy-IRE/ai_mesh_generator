@@ -1,0 +1,5 @@
+name: ai_mesh_generator
+description: Generate printable 3D models from 2D concept art using TripoSR and Blender. Built for NVIDIA AI Workbench.
+environment:
+  type: conda
+  path: environment/environment.yaml

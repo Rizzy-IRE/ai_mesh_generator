@@ -1,0 +1,17 @@
+name: ai-mesh-generator
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - ipykernel
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - pip:
+      - trimesh
+      - open3d
