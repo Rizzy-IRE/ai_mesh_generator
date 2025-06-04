@@ -1,0 +1,20 @@
+specVersion: v2
+meta:
+  name: ai_mesh_generator
+  description: Generate printable 3D models from 2D concept art using TripoSR and Blender.
+environment:
+  base:
+    registry: nvcr.io
+    image: nvidia/ai-workbench/pytorch:1.0.2
+    name: PyTorch
+    cuda_version: "12.2"
+layout:
+  - path: notebooks/
+    type: code
+    storage: git
+  - path: data/
+    type: data
+    storage: gitlfs
+  - path: models/
+    type: models
+    storage: gitlfs
